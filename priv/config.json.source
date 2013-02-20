@@ -1,0 +1,10 @@
+{
+  "services": {
+    "singly": {
+      "client": {
+        "id": "@@SINGLY_CLIENT_ID@@",
+        "secret": "@@SINGLY_CLIENT_SECRET@@"
+      }
+    }
+  }
+}

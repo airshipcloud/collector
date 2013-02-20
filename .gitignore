@@ -1,0 +1,5 @@
+ebin
+deps
+rel/collector
+rel/files/sys.config
+priv/config.json
