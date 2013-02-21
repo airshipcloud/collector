@@ -43,8 +43,8 @@ Then restart Collector:
 
 **Retrieve and Store Facebok Profile**
 
-    curl --header "Content-Type: application/json" --header "Accept: application/json" --data "{\"service\":\"singly\", \"provider\":\"facebook\", \"request\": \"/profile\", \"access_token\": \"FACEBOOK_ACCESS_TOKEN\"}" --verbose --request PUT http://127.0.0.1:10005/users/bob?token=SECRET
+    curl --header "Content-Type: application/json" --header "Accept: application/json" --data "{\"service\":\"singly\", \"provider\":\"facebook\", \"request\": \"/profile\", \"access_token\": \"FACEBOOK_ACCESS_TOKEN\"}" --verbose --request PUT http://127.0.0.1:10005/users/bob/profile?token=SECRET
 
 **GET**
 
-    curl --verbose http://127.0.0.1:10002/useres/bob?token=SECRET
+    curl --verbose http://127.0.0.1:10002/users/bob/profile?token=SECRET
